@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+input, label, textarea {
+  padding: 0.8rem;
+  width: 80%;
+}
+
+input {
+  margin: 0.5rem 1rem;
+}
+
+input:last-of-type {
+  padding: 1rem;
+  width: 50%;
+  margin-bottom: 1.5rem;
+  background-color: #4CAF50;
+  border-color: #4CAF50;
+}
+
+.buttonStyles {
+  padding: 0.6rem 1.2rem;
+  height: 60%;
+  margin: 0.5rem
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #fff;
+  margin: 0 auto;
+  padding: 1rem;
+  align-items: center;
+}
+
+@media only screen and (min-width: 600px)  {
+  .forms {
+    max-width: 100%;
+  }
+  form {
+    max-width: 35%;
+  }
+}
+
+
+@media only screen and (min-width: 660px)  {
+  .forms {
+    max-width: 70%;
+  }
+}
